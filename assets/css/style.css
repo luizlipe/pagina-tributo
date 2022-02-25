@@ -34,3 +34,30 @@ body {
   color: #f8b418;
   text-decoration: underline;
 }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/img4.jpg');
+  background-position: center;
+  background-position-y: -6px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 640px;
+}
+
+.banner .banner-title {
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner-title h1 {
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 130px;
+  left: 30px;
+  text-shadow: #f8b418 5px 5px;
+}
