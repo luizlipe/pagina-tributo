@@ -61,3 +61,46 @@ body {
   left: 30px;
   text-shadow: #f8b418 5px 5px;
 }
+.bio {
+  display: flex;
+  justify-content: center;
+  background-color: #432a19;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bio .bio-desc {
+  width: 500px;
+  height: auto;
+}
+.bio .bio-desc h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.bio .bio-desc p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+}
+.bio .bio-desc a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  margin-left: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.bio .bio-desc a:hover {
+  color: #f8b418;
+  text-decoration: underline;
+}
+
+.bio .bio-img img {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
