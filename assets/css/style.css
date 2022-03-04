@@ -7,10 +7,6 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  width: auto;
-}
-
 .menu ul {
   display: flex;
   justify-content: center;
@@ -169,4 +165,19 @@ body {
 
 .line {
   border: 1px solid #eee;
+}
+
+@media (max-width: 1024px) {
+  .disc .disc-card {
+    width: 200px;
+    height: 200px;
+  }
+  .disc .disc-card p {
+    font-size: 14px;
+  }
+  .disc .disc-card img {
+    width: 120px;
+    height: 120px;
+    padding-left: 40px;
+  }
 }
