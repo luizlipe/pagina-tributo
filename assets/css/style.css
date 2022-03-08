@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-body {
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+}
+
+.menu {
+  width: auto;
 }
 
 .menu ul {
@@ -12,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding: 0;
   height: 50px;
   background-color: #432a19;
 }
@@ -36,8 +45,7 @@ body {
   display: flex;
   justify-content: center;
   background-image: url('../img/img4.jpg');
-  background-position: center;
-  background-position-y: -6px;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 640px;
@@ -52,11 +60,9 @@ body {
   font-size: 70px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  position: relative;
   text-align: center;
-  top: 130px;
-  left: 30px;
   text-shadow: #f8b418 5px 5px;
+  margin-top: 200px;
 }
 .bio {
   display: flex;
@@ -121,8 +127,9 @@ body {
 }
 
 .disc .disc-card {
-  width: 300px;
+  width: 90%;
   height: 300px;
+  max-width: 300px;
   box-shadow: 0 0 5px;
   margin-left: 10px;
   border-radius: 3px;
@@ -141,17 +148,24 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   text-align: center;
+  margin-top: 10px;
 }
 .disc .disc-card p:hover {
   color: #f8b418;
 }
-.disc .disc-card img {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  top: 0;
-  left: 50px;
+
+.disc .disc-card .disc-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
 }
+.disc .disc-card img {
+  width: 70%;
+  height: 70%;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -170,17 +184,17 @@ body {
 
 @media (max-width: 1024px) {
   .disc .disc-card {
-    width: 200px;
-    height: 200px;
+    /* width: 200px; */
+    /* height: 200px; */
   }
   .disc .disc-card p {
     font-size: 14px;
   }
   .disc .disc-card img {
-    width: 120px;
+    /* width: 120px; 
     height: 120px;
     position: relative;
-    left: 40px;
+    left: 40px; */
   }
 }
 
@@ -196,62 +210,51 @@ body {
     font-size: 25px;
   }
   .disc .disc-card {
-    width: 180px;
-    height: 180px;
+    /* width: 180px; */
+    /* height: 180px; */
   }
   .disc .disc-card p {
     font-size: 13px;
     font-weight: 500;
   }
   .disc .disc-card img {
-    width: 100px;
+    /* width: 100px;
     height: 100px;
     position: relative;
     left: 40px;
-    right: 40px;
+    right: 40px; */
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .container {
-  }
-  .menu ul {
-    width: 100vh;
-  }
-
-  .menu li {
-    margin-left: 10px;
+    width: 100%;
   }
 
   .menu ul li a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .banner {
-    width: 100vh;
-    height: 400px;
-    position: relative;
-    right: 10px;
-  }
-  .banner .banner-title {
-    position: absolute;
-    top: 70px;
+    width: 100%;
+    background-position-x: -220px;
   }
   .banner .banner-title h1 {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   .bio {
-    width: 100vh;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bio .bio-desc p {
+    text-align: justify;
+  }
+  .disc {
     padding: 10px;
   }
-
-  .disc {
-    width: 100vh;
-  }
-
-  .footer {
-    width: 100vh;
+  .disc .disc-card {
+    height: 200px;
   }
 }
