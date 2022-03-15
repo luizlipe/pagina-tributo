@@ -1,3 +1,1 @@
-# Página de tributo para a banda Scracho
-
-![Banda scracho](https://ibb.co/zR8mbW6)
+<h1 align="center">Tributo a Banda Scracho<h1>
