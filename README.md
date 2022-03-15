@@ -2,8 +2,7 @@
 <br>
   
 <div align="center">
- <img src="https://i.ibb.co/9Twp2mZ/luizlipe-github-io-pagina-tributo.png"/>
-  </div>  
+<img src="https://i.ibb.co/9Twp2mZ/luizlipe-github-io-pagina-tributo.png"/>
   
 <br>
   ## 🚀 Techonogies
