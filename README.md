@@ -2,6 +2,6 @@
 <br>
   
 <div align="center">
- <img src="https://ibb.co/zR8mbW6" />
+ <img src="https://i.ibb.co/9Twp2mZ/luizlipe-github-io-pagina-tributo.png" />
   </div>  
   
