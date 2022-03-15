@@ -6,5 +6,11 @@
   </div>  
   
 <br>
+  ## 🚀 Techonogies
+  
+  - HTML 
+  - CSS
+  - VSCODE
+  
  
   
